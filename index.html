@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPET N°7 - Jardín América, Misiones</title>
+    
+    <!-- Importación de la fuente Poppins desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- HEADER: Cabecera con el logo y barra de navegación -->
+    <header class="header" id="header">
+        <div class="container">
+            <!-- Logo y nombre del colegio -->
+            <div class="logo">
+                <h1>EPET N°7</h1>
+                <p class="subtitle">Jardín América, Misiones</p>
+            </div>
+            
+            <!-- Menú de navegación -->
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    <li><a href="#AulaVirtual" class="nav-link">Aula Virtual</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Botón hamburguesa para menú móvil -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION: Sección principal con mensaje de bienvenida -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h2 class="hero-title">Innovación y Sostenibilidad</h2>
+            <p class="hero-description">
+                En la EPET N°7 construimos un futuro con trabajo decente.
+            </p>
+            <a href="#proyectos" class="hero-button">Ver Proyectos</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PROYECTOS: Contenedor principal de las tarjetas de proyectos -->
+    <section class="projects-section" id="proyectos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Proyectos</h2>
+            <p class="section-description">
+                Conoce las iniciativas y desarrollos innovadores de nuestros estudiantes
+            </p>
+            
+            <!-- Grid de tarjetas de proyectos -->
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Las tarjetas se generarán dinámicamente con JavaScript -->
+                <!-- Ejemplo de estructura de tarjeta (comentado): -->
+                <!-- 
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="ruta/imagen.jpg" alt="Nombre del proyecto">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Nombre del Proyecto</h3>
+                        <p class="project-description">Descripción breve del proyecto...</p>
+                    </div>
+                </article>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONTACTO: Información de contacto del colegio -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><strong>Dirección:</strong> Jardín América, Misiones, Argentina</p>
+                    <p><strong>Email:</strong> contacto@epet7.edu.ar</p>
+                    <p><strong>Teléfono:</strong> (3743) XXX-XXXX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER: Pie de página con información de copyright -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 EPET N°7 - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="/scripts.js"></script>
+</body>
+</html>
