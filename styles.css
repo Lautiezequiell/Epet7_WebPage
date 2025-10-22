@@ -60,6 +60,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
+    position: relative;
 }
 
 /* ============================================
@@ -95,6 +96,7 @@ body {
     color: var(--color-primary);
     font-size: 1.8rem;
     font-weight: 700;
+
 }
 
 .logo .subtitle {
@@ -250,6 +252,7 @@ body {
 .projects-section {
     padding: var(--spacing-xl) 0;
     background-color: var(--color-white);
+    position: relative;
 }
 
 .section-title {
@@ -478,6 +481,7 @@ body {
 
 .projects-section {
     padding: 4rem 1rem;  /* Reducido el padding horizontal en móviles */
+    position: relative;
 }
 
 .projects-grid {
@@ -504,6 +508,7 @@ body {
     
     .projects-section {
         padding: 4rem 2rem;  /* Más padding horizontal en desktop */
+        position: relative;
     }
 }
 

@@ -7,42 +7,42 @@ const proyectos = [
         id: 1,
         nombre: "EcoDepto",
         descripcion: "Instalación de paneles solares para autoabastecimiento energético del colegio, reduciendo la huella de carbono.",
-        imagen: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=400&fit=crop",
+        imagen: "",
         url: "https://ecodepto.netlify.app/" // Edita esta URL con la página del proyecto
     },
     {
         id: 2,
         nombre: "Tiro al blanco Digital",
         descripcion: "Aplicación móvil desarrollada por estudiantes para gestionar asistencias, calificaciones y comunicación entre docentes y alumnos.",
-        imagen: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop",
+        imagen: "",
         url: "proyecto-app-gestion.html"
     },
     {
         id: 3,
         nombre: "Libreta Digital",
         descripcion: "Sistema automatizado de riego y monitoreo de cultivos con sensores IoT y análisis de datos en tiempo real.",
-        imagen: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&h=400&fit=crop",
+        imagen: "",
         url: "proyecto-huerta-inteligente.html"
     },
     {
         id: 4,
         nombre: "Sistema Gestor de Biblioteca",
         descripcion: "Desarrollo de un robot programable para enseñar fundamentos de robótica y programación a estudiantes de nivel inicial.",
-        imagen: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
-        url: "proyecto-robot-educativo.html"
+        imagen: "/images/Biblioteca-1.png",
+        url: "https://bibliotmunicipaljardin.netlify.app"
     },
     {
         id: 5,
         nombre: "Reciclaje Tecnológico",
         descripcion: "Programa de recolección y reutilización de residuos electrónicos, transformándolos en nuevos dispositivos funcionales.",
-        imagen: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&h=400&fit=crop",
+        imagen: "",
         url: "proyecto-reciclaje-tecnologico.html"
     },
     {
         id: 6,
         nombre: "Portal Web Institucional",
         descripcion: "Plataforma web moderna y responsiva para la comunicación institucional y difusión de actividades del colegio.",
-        imagen: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+        imagen: "",
         url: "proyecto-portal-web.html"
     }
 ];
