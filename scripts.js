@@ -254,3 +254,21 @@ function handleScroll() {
 
 // Agregar el evento de scroll
 window.addEventListener('scroll', handleScroll);
+function handleScroll() {
+    const header = document.getElementById('header');
+    const scrolled = window.scrollY > 50;
+    
+    if (scrolled) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+}
+
+// Agregar el evento de scroll
+window.addEventListener('scroll', handleScroll);
+
+// Asegurarnos que el subtítulo esté oculto al inicio
+document.addEventListener('DOMContentLoaded', () => {
+    handleScroll(); // Esto establecerá el estado inicial correcto
+});

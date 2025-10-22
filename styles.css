@@ -54,6 +54,9 @@ body {
    CONTENEDOR GENERAL
    ============================================ */
 .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
@@ -63,7 +66,7 @@ body {
    HEADER: Barra de navegación superior
    ============================================ */
 .header {
-    background-color: var(--color-white);
+    background-color: var(--color-text-white); 
     box-shadow: var(--shadow-sm);
     position: fixed;
     top: 0;
@@ -77,6 +80,7 @@ body {
 .header.scrolled {
     padding: var(--spacing-xs) 0;
     box-shadow: var(--shadow-md);
+    background-color: #f4f9f6;
 }
 
 .header .container {
@@ -536,7 +540,7 @@ body {
 
 /* Modificar el header para el efecto de scroll */
 .header {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color:  var(--color-text-white); 
     backdrop-filter: blur(0px);
     padding: 1rem 0;
     /* ...resto del código existente... */
@@ -573,4 +577,77 @@ body {
 
 .header.scrolled .nav-link {
     font-size: 0.9rem;
-    padding: calc(var(--spacing-xs) * 0.8) var(--spacing-sm);  }
+    padding: calc(var(--spacing-xs) * 0.8) var(--spacing-sm);
+}
+
+/* Transición suave para el subtítulo del logo */
+.logo .subtitle {
+    color: var(--color-text-light);
+    font-size: 0.85rem;
+    font-weight: 300;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all var(--transition-normal);
+}
+
+.logo .subtitle {
+    color: var(--color-text-light);
+    font-size: 0.85rem;
+    font-weight: 300;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all var(--transition-normal);
+    visibility: hidden;
+}
+
+/* Cuando se hace scroll, el subtítulo aparece suavemente */
+.header.scrolled .logo .subtitle {
+    font-size: 0.75rem;
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.socialmedia {
+    display: inline-block;
+    width: 24px;          /* tamaño deseado */
+    height: 24px;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: transform 0.25s ease;
+    vertical-align: middle;
+}
+
+.socialmedia img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  /* mantiene la proporción de la imagen */
+}
+
+/* Opcional: ajustar aún más en pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .socialmedia { width: 20px; height: 20px; }
+}
+
+.socialmedia {
+    display: inline-block;
+    width: 24px;          /* tamaño deseado */
+    height: 24px;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: transform 0.25s ease;
+    vertical-align: middle;
+}
+
+.socialmedia img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  /* mantiene la proporción de la imagen */
+}
+
+/* Opcional: ajustar aún más en pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .socialmedia { width: 20px; height: 20px; }
+}
