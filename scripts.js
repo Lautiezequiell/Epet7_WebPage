@@ -6,28 +6,28 @@ const proyectos = [
     {
         id: 1,
         nombre: "EcoDepto",
-        descripcion: "Instalación de paneles solares para autoabastecimiento energético del colegio, reduciendo la huella de carbono.",
-        imagen: "",
+        descripcion: "Este proyecto es un sistema de riego inteligente para jardines verticales en terrazas y balcones de edificios utilizando el agua de condensación de los aires acondicionados. Diseñado para entornos dónde el espacio es limitado, para optimizar el uso del agua y promover la jardinería urbana.",
+        imagen: "/images/EcoDeptoLogo.jpeg",
         url: "https://ecodepto.netlify.app/" // Edita esta URL con la página del proyecto
     },
     {
         id: 2,
         nombre: "Tiro al blanco Digital",
-        descripcion: "Aplicación móvil desarrollada por estudiantes para gestionar asistencias, calificaciones y comunicación entre docentes y alumnos.",
-        imagen: "",
+        descripcion: "Este proyecto trata de un Juego clásico de tiro al blanco tecnológicamente mejorado, de la mano de algunos componentes electrónicos, un par de cables y mucha creatividad.",
+        imagen: "images/Codigo.jpg",
         url: "proyecto-app-gestion.html"
     },
     {
         id: 3,
-        nombre: "Libreta Digital",
-        descripcion: "Sistema automatizado de riego y monitoreo de cultivos con sensores IoT y análisis de datos en tiempo real.",
-        imagen: "",
+        nombre: "Libreta Virtual",
+        descripcion: "Este proyecto es una aplicación web que funciona como una libreta virtual. Es una herramienta digital creada para facilitar el registro y visualización de notas escolares. Permite a alumnos, preceptores y directivos acceder fácilmente a la información académica.",
+        imagen: "images/Codigo.jpg",
         url: "proyecto-huerta-inteligente.html"
     },
     {
         id: 4,
         nombre: "Sistema Gestor de Biblioteca",
-        descripcion: "Desarrollo de un robot programable para enseñar fundamentos de robótica y programación a estudiantes de nivel inicial.",
+        descripcion: "Este proyecto es una plataforma web diseñada para gestionar de manera eficiente los recursos y actividades de una biblioteca escolar, facilitando el préstamo y devolución de libros, así como la administración de usuarios y catálogos.",
         imagen: "/images/Biblioteca-1.png",
         url: "https://bibliotmunicipaljardin.netlify.app"
     },
@@ -35,14 +35,14 @@ const proyectos = [
         id: 5,
         nombre: "Reciclaje Tecnológico",
         descripcion: "Programa de recolección y reutilización de residuos electrónicos, transformándolos en nuevos dispositivos funcionales.",
-        imagen: "",
+        imagen: "images/Codigo.jpg",
         url: "proyecto-reciclaje-tecnologico.html"
     },
     {
         id: 6,
         nombre: "Portal Web Institucional",
         descripcion: "Plataforma web moderna y responsiva para la comunicación institucional y difusión de actividades del colegio.",
-        imagen: "",
+        imagen: "images/Codigo.jpg",
         url: "proyecto-portal-web.html"
     }
 ];
