@@ -77,7 +77,7 @@ function renderizarProyectos() {
         
         // Agrega evento click para redirigir a la página del proyecto
         tarjeta.addEventListener('click', () => {
-            window.location.href = proyecto.url;
+            window.open(proyecto.url, '_blank');
         });
         
         // Agrega la tarjeta al contenedor
