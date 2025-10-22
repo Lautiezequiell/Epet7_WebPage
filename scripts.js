@@ -15,14 +15,14 @@ const proyectos = [
         nombre: "Tiro al blanco Digital",
         descripcion: "Este proyecto trata de un Juego clásico de tiro al blanco tecnológicamente mejorado, de la mano de algunos componentes electrónicos, un par de cables y mucha creatividad.",
         imagen: "images/Codigo.jpg",
-        url: "proyecto-app-gestion.html"
+        url: ""
     },
     {
         id: 3,
         nombre: "Libreta Virtual",
         descripcion: "Este proyecto es una aplicación web que funciona como una libreta virtual. Es una herramienta digital creada para facilitar el registro y visualización de notas escolares. Permite a alumnos, preceptores y directivos acceder fácilmente a la información académica.",
         imagen: "images/Codigo.jpg",
-        url: "proyecto-huerta-inteligente.html"
+        url: ""
     },
     {
         id: 4,
@@ -33,17 +33,17 @@ const proyectos = [
     },
     {
         id: 5,
-        nombre: "Reciclaje Tecnológico",
-        descripcion: "Programa de recolección y reutilización de residuos electrónicos, transformándolos en nuevos dispositivos funcionales.",
+        nombre: "Proyecto Re Copado",
+        descripcion: "bla bla bla",
         imagen: "images/Codigo.jpg",
-        url: "proyecto-reciclaje-tecnologico.html"
+        url: ""
     },
     {
         id: 6,
-        nombre: "Portal Web Institucional",
-        descripcion: "Plataforma web moderna y responsiva para la comunicación institucional y difusión de actividades del colegio.",
+        nombre: "Proyecto Re Copado",
+        descripcion: "bla bla bla",
         imagen: "images/Codigo.jpg",
-        url: "proyecto-portal-web.html"
+        url: ""
     }
 ];
 
