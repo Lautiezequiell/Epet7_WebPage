@@ -240,3 +240,17 @@ window.addEventListener('load', () => {
         });
     });
 });
+// ...existing code...
+
+// Función para manejar el efecto de scroll
+function handleScroll() {
+    const header = document.getElementById('header');
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+}
+
+// Agregar el evento de scroll
+window.addEventListener('scroll', handleScroll);
